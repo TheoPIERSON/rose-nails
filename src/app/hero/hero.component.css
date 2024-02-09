@@ -1,0 +1,11 @@
+* {
+  font-family: "Nanum Myeongjo", serif;
+}
+h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  font-size: calc(9000vw / 1018);
+}
