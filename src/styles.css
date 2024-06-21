@@ -8,6 +8,3 @@
   --main-bg-color: pink;
   --main-header-color: rgb(119, 92, 81);
 }
-body {
-  background-color: var(--main-bg-color);
-}
