@@ -8,6 +8,7 @@ import { HeroComponent } from './components/hero/hero.component';
 import { BackgroundComponent } from './static/background/background.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CorpusimagesComponent } from './components/corpusimages/corpusimages.component';
+import { EmailFormComponent } from './components/email-form/email-form.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { CorpusimagesComponent } from './components/corpusimages/corpusimages.co
     BackgroundComponent,
     HomepageComponent,
     CorpusimagesComponent,
+    EmailFormComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
