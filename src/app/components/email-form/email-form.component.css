@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+#message {
+  width: 20rem;
+  height: 10rem;
+}
+form {
+  margin-right: 9rem;
+}
