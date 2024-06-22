@@ -3,7 +3,21 @@
   justify-content: center;
 }
 img {
-  width: 50rem;
+  width: 45rem;
   height: 30rem;
   object-fit: cover;
+}
+.text {
+  margin-left: 3%;
+}
+.headline {
+  text-shadow: 0px 0.2px 0.2px rgba(0, 0, 0, 0.396);
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+p {
+  text-shadow: 0px 0.2px 0.2px rgba(0, 0, 0, 0.396);
+  width: 30rem;
+  letter-spacing: 0.1rem;
+  line-height: 140%;
 }
