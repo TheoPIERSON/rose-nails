@@ -9,6 +9,7 @@ import { BackgroundComponent } from './static/background/background.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CorpusimagesComponent } from './components/corpusimages/corpusimages.component';
 import { EmailFormComponent } from './components/email-form/email-form.component';
+import { OurWorkComponent } from './components/our-work/our-work.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { EmailFormComponent } from './components/email-form/email-form.component
     HomepageComponent,
     CorpusimagesComponent,
     EmailFormComponent,
+    OurWorkComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

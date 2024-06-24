@@ -3,11 +3,16 @@
   justify-content: center;
 }
 #message {
-  width: 20rem;
+  width: 100%;
   height: 10rem;
 }
 form {
   margin-right: 9rem;
+  padding: 3%;
+  width: 25rem;
+}
+.input-row {
+  display: grid;
 }
 .link-logo {
   width: 3rem;
@@ -18,4 +23,27 @@ form {
 .social-links {
   display: flex;
   justify-content: space-around;
+}
+#message,
+#email {
+  border: none;
+  border-left: solid 1.5px #e09ca9;
+  border-bottom: solid 1.5px #e09ca9;
+  background-color: transparent;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+.send-button {
+  margin-left: 60%;
+  width: 40%;
+  height: 2rem;
+  border: none;
+  background-color: black;
+}
+.send-button:hover {
+  margin-left: 60%;
+  width: 40%;
+  height: 2rem;
+  border: none;
+  background-color: #e09ca9;
 }
