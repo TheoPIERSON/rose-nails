@@ -8,8 +8,10 @@
 }
 form {
   margin-right: 9rem;
+  margin-top: 2%;
   padding: 3%;
-  width: 25rem;
+  width: 30rem;
+  background-color: #e09ca9;
 }
 .input-row {
   display: grid;
@@ -21,14 +23,15 @@ form {
   width: 4.2rem;
 }
 .social-links {
+  margin-top: 5%;
   display: flex;
   justify-content: space-around;
 }
 #message,
 #email {
   border: none;
-  border-left: solid 1.5px #e09ca9;
-  border-bottom: solid 1.5px #e09ca9;
+  border-left: solid 1.5px #fabfcb;
+  border-bottom: solid 1.5px #fabfcb;
   background-color: transparent;
   margin-bottom: 3%;
   margin-top: 3%;
