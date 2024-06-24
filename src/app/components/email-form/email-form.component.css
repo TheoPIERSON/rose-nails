@@ -9,3 +9,13 @@
 form {
   margin-right: 9rem;
 }
+.link-logo {
+  width: 3rem;
+}
+.x-logo {
+  width: 4.2rem;
+}
+.social-links {
+  display: flex;
+  justify-content: space-around;
+}
