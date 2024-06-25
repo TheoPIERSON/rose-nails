@@ -10,6 +10,7 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CorpusimagesComponent } from './components/corpusimages/corpusimages.component';
 import { EmailFormComponent } from './components/email-form/email-form.component';
 import { OurWorkComponent } from './components/our-work/our-work.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { OurWorkComponent } from './components/our-work/our-work.component';
     CorpusimagesComponent,
     EmailFormComponent,
     OurWorkComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

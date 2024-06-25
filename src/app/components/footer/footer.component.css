@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  margin-bottom: 2rem;
+}
+a {
+  padding: 1rem 1.5rem;
+  border: 3px solid gray;
+  text-decoration: none;
+  background-color: black;
+  margin-left: 85%;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+a:hover {
+  background-color: transparent;
+  color: black;
+}
