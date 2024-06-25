@@ -28,6 +28,7 @@ body {
   animation: scroll 60s linear infinite;
   display: flex;
 }
+
 .slide {
   margin-left: 2%;
 }
